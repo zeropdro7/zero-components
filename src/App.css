@@ -33,29 +33,55 @@
   }
 }
 
-.title {
-  margin: 0;
-  font-size: 1rem;
-  font-weight: bold;
-  color: #646cff;
-  text-align: center;
-}
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
 
-.divider {
-  border: none;
-  height: 2px;
-  background-color: #646cff;
-  width: absolute;
-  margin: 0.25rem 0 1rem 0;
+  .card {
+    background-color: #1e1e1e !important;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+  }
+
+  .card-header {
+    background-color: #2a2a2a !important;
+    color: #a0a0ff;
+  }
+
+  .badge {
+    background-color: #444 !important;
+    color: #ddd;
+  }
+
+  a {
+    color: #8ab4f8;
+  }
+  a:hover {
+    color: #a2c4ff;
+  }
+
+  .card-text,
+  .read-the-docs {
+    color: #ccc;
+  }
 }
 
 .card {
   padding: 2em;
-  background: #fff;
   margin: 2rem auto;
-  max-width: 320px;
   border-radius: 0.75rem;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  width: 60%;
+  max-width: 24rem;
+  background: #fff;
+}
+
+.card-header {
+  margin: 0;
+  font-weight: bold;
+  color: #646cff;
   text-align: center;
 }
 

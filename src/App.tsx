@@ -17,7 +17,8 @@ function App() {
       <Clock />
       <Counter />
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more, this project was built using those technologies!!
+        Click on the Vite and React logos to learn more, this project was built
+        using those technologies!!
       </p>
     </>
   )

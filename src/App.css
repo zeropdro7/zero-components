@@ -40,14 +40,8 @@
   }
 
   .card {
-    background-color: #1e1e1e !important;
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
-  }
-
-  .card-header {
-    background-color: #2a2a2a !important;
-    color: #a0a0ff;
+    background-color: #fff !important;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
   }
 
   .badge {
@@ -58,13 +52,14 @@
   a {
     color: #8ab4f8;
   }
+
   a:hover {
     color: #a2c4ff;
   }
 
   .card-text,
   .read-the-docs {
-    color: #ccc;
+    color: #444;
   }
 }
 
